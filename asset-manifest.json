@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.b242c7ad.css",
-    "main.js": "/static/js/main.818de2a3.js",
+    "main.css": "/static/css/main.dac5bc4f.css",
+    "main.js": "/static/js/main.3f50eb3c.js",
     "static/js/937.4c2b7811.chunk.js": "/static/js/937.4c2b7811.chunk.js",
     "static/media/escape.png": "/static/media/escape.b3ed4c3e983045b289c0.png",
-    "static/media/resume.pdf": "/static/media/resume.a8feeb7177f52df4ec1e.pdf",
+    "static/media/resume.pdf": "/static/media/resume.e8fe7536c143526e2cd0.pdf",
     "static/media/pfp.jpg": "/static/media/pfp.d85fd762c3fdb0954a0a.jpg",
+    "static/media/nbaversus.png": "/static/media/nbaversus.182d09fb3f598b95fce4.png",
+    "static/media/comingsoon.png": "/static/media/comingsoon.ca4243ecbf3c72bc1f3d.png",
     "static/media/map.jpg": "/static/media/map.5c56320e93a5d3b2ec89.jpg",
     "index.html": "/index.html",
-    "main.b242c7ad.css.map": "/static/css/main.b242c7ad.css.map",
-    "main.818de2a3.js.map": "/static/js/main.818de2a3.js.map",
+    "main.dac5bc4f.css.map": "/static/css/main.dac5bc4f.css.map",
+    "main.3f50eb3c.js.map": "/static/js/main.3f50eb3c.js.map",
     "937.4c2b7811.chunk.js.map": "/static/js/937.4c2b7811.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b242c7ad.css",
-    "static/js/main.818de2a3.js"
+    "static/css/main.dac5bc4f.css",
+    "static/js/main.3f50eb3c.js"
   ]
 }
