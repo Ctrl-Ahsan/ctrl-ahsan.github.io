@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  font-family: "Roboto Mono", "Arial";
+  background-image: linear-gradient(rgb(0, 11, 39), rgb(93, 6, 155), black);
+  transition: all 0.3s;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1024px){
+  .App {
+    font-size: .85rem;
+  }
+}
+@media screen and (max-width: 512px){
+  .App {
+    font-size: .7rem;
+  }
+}
+
+a {
+  color: white;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: dodgerblue;
+}
+
+#tsparticles {
+  height: 100%;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
