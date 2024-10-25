@@ -1,32 +1,31 @@
-import { useState } from "react";
+import { useState } from "react"
 import styled from "styled-components"
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri"
 
 const Nav = () => {
-
-    const [ToggleMenu, setToggleMenu] = useState(false);
+    const [ToggleMenu, setToggleMenu] = useState(false)
 
     const StyledNav = styled.header`
         color: white;
-        font-size: 1.5em;
+        font-size: 1.2em;
         font-weight: 100;
 
         height: 80px;
         width: 100%;
         padding: 20px 10px;
-        
+
         display: flex;
         flex-direction: row;
         justify-content: space-between;
 
         z-index: 2;
 
-        & .nav{
+        & .nav {
             display: flex;
             margin-right: 10px;
         }
 
-        & a{
+        & a {
             height: inherit;
             text-decoration: none;
         }
@@ -38,7 +37,7 @@ const Nav = () => {
             margin-right: auto;
         }
 
-        & .links{
+        & .links {
             padding: 20px;
 
             @media screen and (max-width: 550px) {
@@ -46,7 +45,7 @@ const Nav = () => {
             }
         }
 
-        & .menu{
+        & .menu {
             justify-content: center;
             align-items: center;
             padding: 30px;
@@ -57,12 +56,12 @@ const Nav = () => {
                 display: flex;
             }
 
-            & svg{
+            & svg {
                 cursor: pointer;
             }
         }
 
-        & .menuLinks{
+        & .menuLinks {
             position: absolute;
             z-index: 2;
             top: 100px;
@@ -79,12 +78,13 @@ const Nav = () => {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-
         }
 
         .scale-up-center {
-	        -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            -webkit-animation: scale-up-center 0.4s
+                cubic-bezier(0.39, 0.575, 0.565, 1) both;
+            animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+                both;
         }
 
         /* ----------------------------------------------
@@ -100,53 +100,73 @@ const Nav = () => {
         * ----------------------------------------
         */
         @-webkit-keyframes scale-up-center {
-        0% {
-            -webkit-transform: scale(0.5);
-                    transform: scale(0.5);
-        }
-        100% {
-            -webkit-transform: scale(1);
-                    transform: scale(1);
-        }
+            0% {
+                -webkit-transform: scale(0.5);
+                transform: scale(0.5);
+            }
+            100% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
         }
         @keyframes scale-up-center {
-        0% {
-            -webkit-transform: scale(0.5);
-                    transform: scale(0.5);
+            0% {
+                -webkit-transform: scale(0.5);
+                transform: scale(0.5);
+            }
+            100% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
         }
-        100% {
-            -webkit-transform: scale(1);
-                    transform: scale(1);
-        }
-        }
+    `
 
-    `;
-
-
-    return(
+    return (
         <StyledNav id="nav">
             <a href="/">
-                <img src="/A.webp" alt="A" className="logo"/>
+                <img src="/A.webp" alt="A" className="logo" />
             </a>
             <nav className="nav">
-                <div className="links"><a href="#projects">Projects</a></div>
-                <div className="links"><a href="#technologies">Technologies</a></div>
-                <div className="links"><a href="#contact">Contact</a></div>
+                <div className="links">
+                    <a href="#projects">Projects</a>
+                </div>
+                <div className="links">
+                    <a href="#technologies">Technologies</a>
+                </div>
+                <div className="links">
+                    <a href="#contact">Contact</a>
+                </div>
                 <div className="menu">
-                    {ToggleMenu 
-                    ? <div><RiCloseLine size={35} onClick={() => setToggleMenu(false)}/></div>
-                    : <div><RiMenu3Line size={30} onClick={() => setToggleMenu(true)}/></div>
-                    }
+                    {ToggleMenu ? (
+                        <div>
+                            <RiCloseLine
+                                size={35}
+                                onClick={() => setToggleMenu(false)}
+                            />
+                        </div>
+                    ) : (
+                        <div>
+                            <RiMenu3Line
+                                size={30}
+                                onClick={() => setToggleMenu(true)}
+                            />
+                        </div>
+                    )}
                     {ToggleMenu && (
                         <div className="menuLinks scale-up-center">
-                            <div onClick={() => setToggleMenu(false)}><a href="#projects">Projects</a></div>
-                            <div onClick={() => setToggleMenu(false)}><a href="#technologies">Technologies</a></div>
-                            <div onClick={() => setToggleMenu(false)}><a href="#contact">Contact</a></div>
+                            <div onClick={() => setToggleMenu(false)}>
+                                <a href="#projects">Projects</a>
+                            </div>
+                            <div onClick={() => setToggleMenu(false)}>
+                                <a href="#technologies">Technologies</a>
+                            </div>
+                            <div onClick={() => setToggleMenu(false)}>
+                                <a href="#contact">Contact</a>
+                            </div>
                         </div>
                     )}
                 </div>
             </nav>
-        
         </StyledNav>
     )
 }
