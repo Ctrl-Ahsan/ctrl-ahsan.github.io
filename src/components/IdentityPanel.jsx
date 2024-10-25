@@ -121,14 +121,18 @@ const IdentityCard = () => {
             <div className="panel">
                 <div className="panelHeading">about</div>
                 <div className="panelText">
-                    Hi, I'm a fourth year Computing student at Queen's
-                    University
+                    Hi, I'm a Computing student at Queen's University
                 </div>
+            </div>
+            <div className="panel">
+                <div className="panelHeading">professional experience</div>
+                <div className="panelText">1 year</div>
             </div>
             <div className="panel">
                 <div className="panelHeading">objective</div>
                 <div className="panelText">
-                    I'm currently working on new features for SOTI XSight
+                    I'm actively seeking a new graduate software development
+                    role starting January 2025
                 </div>
             </div>
             <div className="panel">
@@ -142,12 +146,12 @@ const IdentityCard = () => {
                             typewriter
                                 .changeDeleteSpeed(10)
                                 .typeString(
-                                    "Excited about web3 and blockchain technology"
+                                    "Fascinated by VR/AR and the future of digital interaction"
                                 )
                                 .pauseFor(4000)
-                                .deleteChars(44)
+                                .deleteChars(57)
                                 .typeString(
-                                    "Fascinated by VR/AR and the future of gaming"
+                                    "Excited about web3 and blockchain technology"
                                 )
                                 .pauseFor(4000)
                                 .deleteChars(44)
@@ -169,7 +173,7 @@ const IdentityCard = () => {
                 <div>
                     <div className="panelHeading">location</div>
                     <div className="panelText" style={{ color: "white" }}>
-                        Milton, Ontario
+                        Toronto, Ontario
                         <br />
                         Canada
                     </div>
