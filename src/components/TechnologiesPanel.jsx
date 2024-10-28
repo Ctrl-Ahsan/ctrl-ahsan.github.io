@@ -6,23 +6,23 @@ import { motion, AnimatePresence } from "framer-motion"
 const TechnologiesPanel = () => {
     const techList = [
         {
-            name: "HTML",
-            image: "html.png",
-            category: "language",
-        },
-        {
-            name: "CSS",
-            image: "css.png",
-            category: "language",
-        },
-        {
             name: "JavaScript",
             image: "javascript.png",
             category: "language",
         },
         {
+            name: "TypeScript",
+            image: "typescript.png",
+            category: "language",
+        },
+        {
             name: "React",
             image: "react.png",
+            category: "framework",
+        },
+        {
+            name: "Angular",
+            image: "angular.png",
             category: "framework",
         },
         {
@@ -51,13 +51,23 @@ const TechnologiesPanel = () => {
             category: "language",
         },
         {
-            name: "MySQL",
-            image: "mysql.png",
+            name: ".NET",
+            image: "dotnet.png",
+            category: "framework",
+        },
+        {
+            name: "SSMS",
+            image: "sql.png",
             category: "tools",
         },
         {
             name: "MongoDB",
             image: "mongodb.png",
+            category: "tools",
+        },
+        {
+            name: "GPT",
+            image: "gpt.png",
             category: "tools",
         },
         {
