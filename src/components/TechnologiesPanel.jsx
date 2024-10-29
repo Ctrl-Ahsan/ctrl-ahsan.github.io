@@ -26,6 +26,11 @@ const TechnologiesPanel = () => {
             category: "framework",
         },
         {
+            name: "Jasmine",
+            image: "jasmine.png",
+            category: "framework",
+        },
+        {
             name: "Node",
             image: "node.png",
             category: "framework",
@@ -120,7 +125,7 @@ const TechnologiesPanel = () => {
                         id={category === "framework" ? "active" : ""}
                         onClick={() => setCategory("framework")}
                     >
-                        Frameworks
+                        Libraries & Frameworks
                     </div>
                     <div
                         className="categoryName"
