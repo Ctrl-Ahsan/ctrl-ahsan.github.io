@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.dac5bc4f.css",
-    "main.js": "/static/js/main.5413ce73.js",
+    "main.js": "/static/js/main.eb3af8c7.js",
     "static/js/937.4c2b7811.chunk.js": "/static/js/937.4c2b7811.chunk.js",
+    "static/media/lantec.png": "/static/media/lantec.4dddd733f6f558b95e43.png",
     "static/media/escape.png": "/static/media/escape.b3ed4c3e983045b289c0.png",
-    "static/media/resume.pdf": "/static/media/resume.1856919e1c31b5dfe8d7.pdf",
+    "static/media/glassvault.png": "/static/media/glassvault.39dfdcbc97801649234f.png",
+    "static/media/resume.pdf": "/static/media/resume.78201febd1df761de989.pdf",
     "static/media/pfp.jpg": "/static/media/pfp.d85fd762c3fdb0954a0a.jpg",
     "static/media/nbaversus.png": "/static/media/nbaversus.182d09fb3f598b95fce4.png",
-    "static/media/comingsoon.png": "/static/media/comingsoon.ca4243ecbf3c72bc1f3d.png",
     "static/media/map.jpg": "/static/media/map.5c56320e93a5d3b2ec89.jpg",
     "index.html": "/index.html",
     "main.dac5bc4f.css.map": "/static/css/main.dac5bc4f.css.map",
-    "main.5413ce73.js.map": "/static/js/main.5413ce73.js.map",
+    "main.eb3af8c7.js.map": "/static/js/main.eb3af8c7.js.map",
     "937.4c2b7811.chunk.js.map": "/static/js/937.4c2b7811.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dac5bc4f.css",
-    "static/js/main.5413ce73.js"
+    "static/js/main.eb3af8c7.js"
   ]
 }
