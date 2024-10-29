@@ -40,7 +40,7 @@ const Nav = () => {
         & .links {
             padding: 20px;
 
-            @media screen and (max-width: 550px) {
+            @media screen and (max-width: 850px) {
                 display: none;
             }
         }
@@ -52,7 +52,7 @@ const Nav = () => {
             display: none;
             z-index: 2;
 
-            @media screen and (max-width: 550px) {
+            @media screen and (max-width: 850px) {
                 display: flex;
             }
 
@@ -128,6 +128,9 @@ const Nav = () => {
             </a>
             <nav className="nav">
                 <div className="links">
+                    <a href="#experience">Experience</a>
+                </div>
+                <div className="links">
                     <a href="#projects">Projects</a>
                 </div>
                 <div className="links">
@@ -154,6 +157,9 @@ const Nav = () => {
                     )}
                     {ToggleMenu && (
                         <div className="menuLinks scale-up-center">
+                            <div onClick={() => setToggleMenu(false)}>
+                                <a href="#experience">Experience</a>
+                            </div>
                             <div onClick={() => setToggleMenu(false)}>
                                 <a href="#projects">Projects</a>
                             </div>
