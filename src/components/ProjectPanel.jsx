@@ -39,7 +39,7 @@ const ProjectPanel = () => {
         .item {
             border-radius: 20px;
             box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s, box-shadow 0.3s;
+            transition: box-shadow 0.5s;
             cursor: pointer;
             max-width: 300px;
             text-align: left;
@@ -49,7 +49,6 @@ const ProjectPanel = () => {
             justify-content: space-between;
 
             :hover {
-                transform: scale(1.05);
                 box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.2);
             }
 
@@ -109,7 +108,7 @@ const ProjectPanel = () => {
         {
             title: "NBA Versus",
             description:
-                "Web app where fans explore, compare, and engage with NBA player duels. Features thousands of unique matchups, stats and player props analysis tools.",
+                "Web app where fans debate and analyze their favorite NBA players. Features thousands of unique matchups, stats and player props analysis tools.",
             tags: ["React", "Node", "Express", "MongoDB"],
             image: nbaversus,
             link: "https://www.nbaversus.com",
@@ -121,7 +120,7 @@ const ProjectPanel = () => {
                 "Website for a Muskoka-based construction and design company. Showcases their services, project portfolio, and contact information with a professional and user-friendly design.",
             tags: ["React"],
             image: lantec,
-            link: "https://lantec.builds.example",
+            link: "https://lantecbuilds.com",
         },
         {
             title: "GlassVault",

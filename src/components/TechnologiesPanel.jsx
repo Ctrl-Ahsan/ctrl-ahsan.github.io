@@ -125,7 +125,7 @@ const TechnologiesPanel = () => {
                         id={category === "framework" ? "active" : ""}
                         onClick={() => setCategory("framework")}
                     >
-                        Libraries & Frameworks
+                        Frameworks
                     </div>
                     <div
                         className="categoryName"

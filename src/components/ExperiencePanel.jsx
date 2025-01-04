@@ -111,23 +111,22 @@ const ExperiencePanel = () => {
                             <li className="bullet">
                                 Participated in the migration of legacy codebase
                                 to modern Angular, reducing code complexity and
-                                improving maintainability.
+                                improving maintainability
                             </li>
                             <li className="bullet">
-                                Developed and migrated email notifications to a
-                                new system with zero downtime and no customer
-                                disruption, resulting in a more reliable,
-                                scalable, and secure system that supports email
-                                delivery via Office 365 and SMTP.
+                                Developed a reporting feature enabling users to
+                                schedule automated emails with PDF / CSV reports
+                                generated from custom data configurations for
+                                real-time insights
                             </li>
                             <li className="bullet">
                                 Localized flagship product for Japanese market,
-                                enhancing accessibility and user experience.
+                                enhancing accessibility and user experience
                             </li>
                             <li className="bullet">
                                 Conducted thorough unit and integration testing
                                 using Jasmine, identifying and resolving bugs
-                                early in the development lifecycle.
+                                early in the development lifecycle
                             </li>
                         </ul>
                     </div>

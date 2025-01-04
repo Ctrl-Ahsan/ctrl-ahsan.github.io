@@ -105,15 +105,23 @@ const IdentityCard = () => {
                         alignItems: "center",
                     }}
                 >
-                    <a href={resume} target="_blank">
+                    <a href={resume} target="_blank" rel="noopener noreferrer">
                         <HiOutlineDocumentText style={{ fontSize: "2.8em" }} />
                     </a>
-                    <a href={"https://github.com/Ctrl-Ahsan"} target="_blank">
+                    <a
+                        href={"https://github.com/Ctrl-Ahsan"}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <FaGithub
                             style={{ fontSize: "2.5em", paddingRight: "5px" }}
                         />
                     </a>
-                    <a href={"https://linkedin.com/in/ahsania"} target="_blank">
+                    <a
+                        href={"https://linkedin.com/in/ahsania"}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <FaLinkedin style={{ fontSize: "2.5em" }} />
                     </a>
                 </div>
